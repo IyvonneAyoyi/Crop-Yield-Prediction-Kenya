@@ -1,0 +1,376 @@
+Item,Element,,Year,Unit,Value
+Rice,Area harvested,,2000,ha,13882
+Rice,Yield,,2000,kg/ha,3771
+Rice,Production,,2000,t,52349
+Rice,Area harvested,,2001,ha,13200
+Rice,Yield,,2001,kg/ha,3409.1
+Rice,Production,,2001,t,45000
+Rice,Area harvested,,2002,ha,13000
+Rice,Yield,,2002,kg/ha,3461.5
+Rice,Production,,2002,t,45000
+Rice,Area harvested,,2003,ha,10781
+Rice,Yield,,2003,kg/ha,3756.8
+Rice,Production,,2003,t,40502
+Rice,Area harvested,,2004,ha,13223
+Rice,Yield,,2004,kg/ha,3728
+Rice,Production,,2004,t,49295
+Rice,Area harvested,,2005,ha,15940
+Rice,Yield,,2005,kg/ha,3932.1
+Rice,Production,,2005,t,62677
+Rice,Area harvested,,2006,ha,23106
+Rice,Yield,,2006,kg/ha,2806.2
+Rice,Production,,2006,t,64840
+Rice,Area harvested,,2007,ha,16457
+Rice,Yield,,2007,kg/ha,2871.5
+Rice,Production,,2007,t,47256
+Rice,Area harvested,,2008,ha,16734
+Rice,Yield,,2008,kg/ha,1307.6
+Rice,Production,,2008,t,21881
+Rice,Area harvested,,2009,ha,21829
+Rice,Yield,,2009,kg/ha,1933.3
+Rice,Production,,2009,t,42202
+Rice,Area harvested,,2010,ha,20181
+Rice,Yield,,2010,kg/ha,4238.4
+Rice,Production,,2010,t,85536
+Rice,Area harvested,,2011,ha,28034
+Rice,Yield,,2011,kg/ha,3967.6
+Rice,Production,,2011,t,111229
+Rice,Area harvested,,2012,ha,29630
+Rice,Yield,,2012,kg/ha,4664.3
+Rice,Production,,2012,t,138204
+Rice,Area harvested,,2013,ha,31349
+Rice,Yield,,2013,kg/ha,3995.5
+Rice,Production,,2013,t,125256
+Rice,Area harvested,,2014,ha,28390
+Rice,Yield,,2014,kg/ha,3954.3
+Rice,Production,,2014,t,112263
+Rice,Area harvested,,2015,ha,29438
+Rice,Yield,,2015,kg/ha,3956.6
+Rice,Production,,2015,t,116473
+Rice,Area harvested,,2016,ha,29337
+Rice,Yield,,2016,kg/ha,3460.1
+Rice,Production,,2016,t,101510
+Rice,Area harvested,,2017,ha,30392
+Rice,Yield,,2017,kg/ha,2671.7
+Rice,Production,,2017,t,81198
+Rice,Area harvested,,2018,ha,25966
+Rice,Yield,,2018,kg/ha,4336.7
+Rice,Production,,2018,t,112605
+Rice,Area harvested,,2019,ha,24992
+Rice,Yield,,2019,kg/ha,6425.5
+Rice,Production,,2019,t,160585
+Rice,Area harvested,,2020,ha,28276
+Rice,Yield,,2020,kg/ha,6397.3
+Rice,Production,,2020,t,180890
+Rice,Area harvested,,2021,ha,32028
+Rice,Yield,,2021,kg/ha,5807.4
+Rice,Production,,2021,t,186000
+Rice,Area harvested,,2022,ha,44255
+Rice,Yield,,2022,kg/ha,4345.2
+Rice,Production,,2022,t,192299
+Rice,Area harvested,,2023,ha,38942
+Rice,Yield,,2023,kg/ha,5882.2
+Rice,Production,,2023,t,229064
+Rice,Area harvested,,2024,ha,43057
+Rice,Yield,,2024,kg/ha,6553
+Rice,Production,,2024,t,282152
+Maize (corn),Area harvested,,2000,ha,1500000
+Maize (corn),Yield,,2000,kg/ha,1440
+Maize (corn),Production,,2000,t,2160000
+Maize (corn),Area harvested,,2001,ha,1640000
+Maize (corn),Yield,,2001,kg/ha,1701.2
+Maize (corn),Production,,2001,t,2790000
+Maize (corn),Area harvested,,2002,ha,1592315
+Maize (corn),Yield,,2002,kg/ha,1512.6
+Maize (corn),Production,,2002,t,2408596
+Maize (corn),Area harvested,,2003,ha,1670914
+Maize (corn),Yield,,2003,kg/ha,1622.4
+Maize (corn),Production,,2003,t,2710848
+Maize (corn),Area harvested,,2004,ha,1351327
+Maize (corn),Yield,,2004,kg/ha,1929.3
+Maize (corn),Production,,2004,t,2607139
+Maize (corn),Area harvested,,2005,ha,1771123
+Maize (corn),Yield,,2005,kg/ha,1640.5
+Maize (corn),Production,,2005,t,2905559
+Maize (corn),Area harvested,,2006,ha,1888185
+Maize (corn),Yield,,2006,kg/ha,1719.7
+Maize (corn),Production,,2006,t,3247200
+Maize (corn),Area harvested,,2007,ha,1615304
+Maize (corn),Yield,,2007,kg/ha,1813.2
+Maize (corn),Production,,2007,t,2928793
+Maize (corn),Area harvested,,2008,ha,1700000
+Maize (corn),Yield,,2008,kg/ha,1392.5
+Maize (corn),Production,,2008,t,2367237
+Maize (corn),Area harvested,,2009,ha,1884368
+Maize (corn),Yield,,2009,kg/ha,1294.3
+Maize (corn),Production,,2009,t,2439000
+Maize (corn),Area harvested,,2010,ha,2008346
+Maize (corn),Yield,,2010,kg/ha,1725.1
+Maize (corn),Production,,2010,t,3464541
+Maize (corn),Area harvested,,2011,ha,2131887
+Maize (corn),Yield,,2011,kg/ha,1584
+Maize (corn),Production,,2011,t,3376862
+Maize (corn),Area harvested,,2012,ha,2159322
+Maize (corn),Yield,,2012,kg/ha,1736.6
+Maize (corn),Production,,2012,t,3749880
+Maize (corn),Area harvested,,2013,ha,2123138
+Maize (corn),Yield,,2013,kg/ha,1692.2
+Maize (corn),Production,,2013,t,3592688
+Maize (corn),Area harvested,,2014,ha,2116141
+Maize (corn),Yield,,2014,kg/ha,1660.2
+Maize (corn),Production,,2014,t,3513171
+Maize (corn),Area harvested,,2015,ha,2098240
+Maize (corn),Yield,,2015,kg/ha,1823
+Maize (corn),Production,,2015,t,3825000
+Maize (corn),Area harvested,,2016,ha,2337586
+Maize (corn),Yield,,2016,kg/ha,1428.4
+Maize (corn),Production,,2016,t,3339000
+Maize (corn),Area harvested,,2017,ha,2086178
+Maize (corn),Yield,,2017,kg/ha,1527.2
+Maize (corn),Production,,2017,t,3186000
+Maize (corn),Area harvested,,2018,ha,2273283
+Maize (corn),Yield,,2018,kg/ha,1765.6
+Maize (corn),Production,,2018,t,4013777.44
+Maize (corn),Area harvested,,2019,ha,2296174
+Maize (corn),Yield,,2019,kg/ha,1560
+Maize (corn),Production,,2019,t,3582000
+Maize (corn),Area harvested,,2020,ha,2135741
+Maize (corn),Yield,,2020,kg/ha,1774.1
+Maize (corn),Production,,2020,t,3789000
+Maize (corn),Area harvested,,2021,ha,2168603
+Maize (corn),Yield,,2021,kg/ha,1523.8
+Maize (corn),Production,,2021,t,3304430
+Maize (corn),Area harvested,,2022,ha,2113520
+Maize (corn),Yield,,2022,kg/ha,1458.3
+Maize (corn),Production,,2022,t,3082220
+Maize (corn),Area harvested,,2023,ha,2430014
+Maize (corn),Yield,,2023,kg/ha,1763.4
+Maize (corn),Production,,2023,t,4285206
+Maize (corn),Area harvested,,2024,ha,2414536
+Maize (corn),Yield,,2024,kg/ha,1666.2
+Maize (corn),Production,,2024,t,4023000
+Wheat,Area harvested,,2000,ha,131834
+Wheat,Yield,,2000,kg/ha,1549.2
+Wheat,Production,,2000,t,204232
+Wheat,Area harvested,,2001,ha,129209
+Wheat,Yield,,2001,kg/ha,1989
+Wheat,Production,,2001,t,256997
+Wheat,Area harvested,,2002,ha,144794
+Wheat,Yield,,2002,kg/ha,2121.7
+Wheat,Production,,2002,t,307215
+Wheat,Area harvested,,2003,ha,151135
+Wheat,Yield,,2003,kg/ha,2505.5
+Wheat,Production,,2003,t,378665
+Wheat,Area harvested,,2004,ha,152826
+Wheat,Yield,,2004,kg/ha,2482.7
+Wheat,Production,,2004,t,379425
+Wheat,Area harvested,,2005,ha,159477
+Wheat,Yield,,2005,kg/ha,2313.1
+Wheat,Production,,2005,t,368879
+Wheat,Area harvested,,2006,ha,150488
+Wheat,Yield,,2006,kg/ha,2187.5
+Wheat,Production,,2006,t,329193
+Wheat,Area harvested,,2007,ha,104176
+Wheat,Yield,,2007,kg/ha,3094
+Wheat,Production,,2007,t,322320
+Wheat,Area harvested,,2008,ha,130273
+Wheat,Yield,,2008,kg/ha,2584.5
+Wheat,Production,,2008,t,336688
+Wheat,Area harvested,,2009,ha,131594
+Wheat,Yield,,2009,kg/ha,1666.5
+Wheat,Production,,2009,t,219301
+Wheat,Area harvested,,2010,ha,160043
+Wheat,Yield,,2010,kg/ha,3199.1
+Wheat,Production,,2010,t,511994
+Wheat,Area harvested,,2011,ha,131509
+Wheat,Yield,,2011,kg/ha,2041.5
+Wheat,Production,,2011,t,268482
+Wheat,Area harvested,,2012,ha,148703
+Wheat,Yield,,2012,kg/ha,2972
+Wheat,Production,,2012,t,441944
+Wheat,Area harvested,,2013,ha,162900
+Wheat,Yield,,2013,kg/ha,2760.2
+Wheat,Production,,2013,t,449641
+Wheat,Area harvested,,2014,ha,147210
+Wheat,Yield,,2014,kg/ha,1554.9
+Wheat,Production,,2014,t,228900
+Wheat,Area harvested,,2015,ha,120256
+Wheat,Yield,,2015,kg/ha,1984.1
+Wheat,Production,,2015,t,238600
+Wheat,Area harvested,,2016,ha,153119
+Wheat,Yield,,2016,kg/ha,1402.2
+Wheat,Production,,2016,t,214700
+Wheat,Area harvested,,2017,ha,131309
+Wheat,Yield,,2017,kg/ha,1258.1
+Wheat,Production,,2017,t,165200
+Wheat,Area harvested,,2018,ha,133147
+Wheat,Yield,,2018,kg/ha,2528
+Wheat,Production,,2018,t,336600
+Wheat,Area harvested,,2019,ha,139307
+Wheat,Yield,,2019,kg/ha,2628.7
+Wheat,Production,,2019,t,366200
+Wheat,Area harvested,,2020,ha,132231
+Wheat,Yield,,2020,kg/ha,3060.6
+Wheat,Production,,2020,t,404700
+Wheat,Area harvested,,2021,ha,124880
+Wheat,Yield,,2021,kg/ha,2795.5
+Wheat,Production,,2021,t,349102
+Wheat,Area harvested,,2022,ha,119554
+Wheat,Yield,,2022,kg/ha,3083.9
+Wheat,Production,,2022,t,368696
+Wheat,Area harvested,,2023,ha,104440
+Wheat,Yield,,2023,kg/ha,2963.3
+Wheat,Production,,2023,t,309492
+Wheat,Area harvested,,2024,ha,102560
+Wheat,Yield,,2024,kg/ha,3044.1
+Wheat,Production,,2024,t,312200
+Sugar cane,Area harvested,,2000,ha,57243
+Sugar cane,Yield,,2000,kg/ha,68856
+Sugar cane,Production,,2000,t,3941524
+Sugar cane,Area harvested,,2001,ha,47794
+Sugar cane,Yield,,2001,kg/ha,74293.7
+Sugar cane,Production,,2001,t,3550792
+Sugar cane,Area harvested,,2002,ha,54010
+Sugar cane,Yield,,2002,kg/ha,83343.1
+Sugar cane,Production,,2002,t,4501363
+Sugar cane,Area harvested,,2003,ha,50468
+Sugar cane,Yield,,2003,kg/ha,83301.4
+Sugar cane,Production,,2003,t,4204055
+Sugar cane,Area harvested,,2004,ha,54191
+Sugar cane,Yield,,2004,kg/ha,86010.5
+Sugar cane,Production,,2004,t,4660995
+Sugar cane,Area harvested,,2005,ha,56537
+Sugar cane,Yield,,2005,kg/ha,84914.7
+Sugar cane,Production,,2005,t,4800820
+Sugar cane,Area harvested,,2006,ha,54621
+Sugar cane,Yield,,2006,kg/ha,90310.3
+Sugar cane,Production,,2006,t,4932839
+Sugar cane,Area harvested,,2007,ha,59201
+Sugar cane,Yield,,2007,kg/ha,87907.5
+Sugar cane,Production,,2007,t,5204214
+Sugar cane,Area harvested,,2008,ha,54465
+Sugar cane,Yield,,2008,kg/ha,93858.4
+Sugar cane,Production,,2008,t,5112000
+Sugar cane,Area harvested,,2009,ha,65774
+Sugar cane,Yield,,2009,kg/ha,85302.7
+Sugar cane,Production,,2009,t,5610702
+Sugar cane,Area harvested,,2010,ha,68738
+Sugar cane,Yield,,2010,kg/ha,83063
+Sugar cane,Production,,2010,t,5709586
+Sugar cane,Area harvested,,2011,ha,79000
+Sugar cane,Yield,,2011,kg/ha,67181.5
+Sugar cane,Production,,2011,t,5307341
+Sugar cane,Area harvested,,2012,ha,87340
+Sugar cane,Yield,,2012,kg/ha,66681.5
+Sugar cane,Production,,2012,t,5823964
+Sugar cane,Area harvested,,2013,ha,85857
+Sugar cane,Yield,,2013,kg/ha,77730.7
+Sugar cane,Production,,2013,t,6673725
+Sugar cane,Area harvested,,2014,ha,72180
+Sugar cane,Yield,,2014,kg/ha,88804.8
+Sugar cane,Production,,2014,t,6409929
+Sugar cane,Area harvested,,2015,ha,77830
+Sugar cane,Yield,,2015,kg/ha,92056.9
+Sugar cane,Production,,2015,t,7164790
+Sugar cane,Area harvested,,2016,ha,86876
+Sugar cane,Yield,,2016,kg/ha,81663.7
+Sugar cane,Production,,2016,t,7094619
+Sugar cane,Area harvested,,2017,ha,67708
+Sugar cane,Yield,,2017,kg/ha,70177.9
+Sugar cane,Production,,2017,t,4751605.24
+Sugar cane,Area harvested,,2018,ha,73080
+Sugar cane,Yield,,2018,kg/ha,72005.4
+Sugar cane,Production,,2018,t,5262157
+Sugar cane,Area harvested,,2019,ha,71935
+Sugar cane,Yield,,2019,kg/ha,64031.4
+Sugar cane,Production,,2019,t,4606100
+Sugar cane,Area harvested,,2020,ha,89800
+Sugar cane,Yield,,2020,kg/ha,75845.2
+Sugar cane,Production,,2020,t,6810898
+Sugar cane,Area harvested,,2021,ha,93288
+Sugar cane,Yield,,2021,kg/ha,82101.7
+Sugar cane,Production,,2021,t,7659100
+Sugar cane,Area harvested,,2022,ha,117960
+Sugar cane,Yield,,2022,kg/ha,74599.9
+Sugar cane,Production,,2022,t,8799800
+Sugar cane,Area harvested,,2023,ha,80700
+Sugar cane,Yield,,2023,kg/ha,68848.8
+Sugar cane,Production,,2023,t,5556100
+Sugar cane,Area harvested,,2024,ha,134900
+Sugar cane,Yield,,2024,kg/ha,69424
+Sugar cane,Production,,2024,t,9365300
+Tea leaves,Area harvested,,2000,ha,120390
+Tea leaves,Yield,,2000,kg/ha,8530.6
+Tea leaves,Production,,2000,t,1027000
+Tea leaves,Area harvested,,2001,ha,124290
+Tea leaves,Yield,,2001,kg/ha,10306.5
+Tea leaves,Production,,2001,t,1281000
+Tea leaves,Area harvested,,2002,ha,131450
+Tea leaves,Yield,,2002,kg/ha,9494.1
+Tea leaves,Production,,2002,t,1248000
+Tea leaves,Area harvested,,2003,ha,131450
+Tea leaves,Yield,,2003,kg/ha,9714.7
+Tea leaves,Production,,2003,t,1277000
+Tea leaves,Area harvested,,2004,ha,136700
+Tea leaves,Yield,,2004,kg/ha,10321.9
+Tea leaves,Production,,2004,t,1411000
+Tea leaves,Area harvested,,2005,ha,141300
+Tea leaves,Yield,,2005,kg/ha,10106.2
+Tea leaves,Production,,2005,t,1428000
+Tea leaves,Area harvested,,2006,ha,147080
+Tea leaves,Yield,,2006,kg/ha,9178.7
+Tea leaves,Production,,2006,t,1350000
+Tea leaves,Area harvested,,2007,ha,149190
+Tea leaves,Yield,,2007,kg/ha,10771.5
+Tea leaves,Production,,2007,t,1607000
+Tea leaves,Area harvested,,2008,ha,157700
+Tea leaves,Yield,,2008,kg/ha,9530.8
+Tea leaves,Production,,2008,t,1503000
+Tea leaves,Area harvested,,2009,ha,158294
+Tea leaves,Yield,,2009,kg/ha,8629.5
+Tea leaves,Production,,2009,t,1366000
+Tea leaves,Area harvested,,2010,ha,171916
+Tea leaves,Yield,,2010,kg/ha,10092.1
+Tea leaves,Production,,2010,t,1735000
+Tea leaves,Area harvested,,2011,ha,187855
+Tea leaves,Yield,,2011,kg/ha,8746.1
+Tea leaves,Production,,2011,t,1643000
+Tea leaves,Area harvested,,2012,ha,190600
+Tea leaves,Yield,,2012,kg/ha,8426
+Tea leaves,Production,,2012,t,1606000
+Tea leaves,Area harvested,,2013,ha,198600
+Tea leaves,Yield,,2013,kg/ha,9466.3
+Tea leaves,Production,,2013,t,1880000
+Tea leaves,Area harvested,,2014,ha,203006
+Tea leaves,Yield,,2014,kg/ha,9531.7
+Tea leaves,Production,,2014,t,1935000
+Tea leaves,Area harvested,,2015,ha,209400
+Tea leaves,Yield,,2015,kg/ha,8285.6
+Tea leaves,Production,,2015,t,1735000
+Tea leaves,Area harvested,,2016,ha,218500
+Tea leaves,Yield,,2016,kg/ha,9414.2
+Tea leaves,Production,,2016,t,2057000
+Tea leaves,Area harvested,,2017,ha,232700
+Tea leaves,Yield,,2017,kg/ha,8216.6
+Tea leaves,Production,,2017,t,1912000
+Tea leaves,Area harvested,,2018,ha,236200
+Tea leaves,Yield,,2018,kg/ha,9072.8
+Tea leaves,Production,,2018,t,2143000
+Tea leaves,Area harvested,,2019,ha,269400
+Tea leaves,Yield,,2019,kg/ha,7405.3
+Tea leaves,Production,,2019,t,1995000
+Tea leaves,Area harvested,,2020,ha,269400
+Tea leaves,Yield,,2020,kg/ha,11321.5
+Tea leaves,Production,,2020,t,3050000
+Tea leaves,Area harvested,,2021,ha,219000
+Tea leaves,Yield,,2021,kg/ha,11100
+Tea leaves,Production,,2021,t,2430900
+Tea leaves,Area harvested,,2022,ha,225800
+Tea leaves,Yield,,2022,kg/ha,10709.5
+Tea leaves,Production,,2022,t,2418200
+Tea leaves,Area harvested,,2023,ha,227800
+Tea leaves,Yield,,2023,kg/ha,11316.1
+Tea leaves,Production,,2023,t,2577800
+Tea leaves,Area harvested,,2024,ha,228400
+Tea leaves,Yield,,2024,kg/ha,11765.3
+Tea leaves,Production,,2024,t,2687200
