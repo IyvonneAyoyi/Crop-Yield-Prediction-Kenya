@@ -1,6 +1,3 @@
-import ee
-
-from gee.validation import validate_crop_county
 
 from gee.rainfall import get_rainfall
 from gee.ndvi import get_ndvi
@@ -11,20 +8,6 @@ from gee.elevation import get_elevation
 from gee.slope import get_slope
 
 
-
-from gee.config import (
-    COUNTIES,
-    CROP_MASKS
-)
-
-from gee.helpers import (
-    get_crop_mask,
-    get_county,
-    get_harvested_area
-)
-
-
-    
 # ==========================================================
 # TESTING
 # ==========================================================
@@ -94,7 +77,7 @@ if __name__ == "__main__":
 
     # Evapotranspiration Test
 
-et = get_evapotranspiration(
+    et = get_evapotranspiration(
 
     county_name="Nakuru",
 
