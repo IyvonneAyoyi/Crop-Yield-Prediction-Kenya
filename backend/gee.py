@@ -1,126 +1,17 @@
 import ee
-import pandas as pd
-from pathlib import Path
+
+from gee.validation import validate_crop_county
 
 from gee.config import (
     COUNTIES,
     CROP_MASKS
 )
 
-# ==========================================================
-# VALID COUNTY-CROP COMBINATIONS
-# ==========================================================
-
-csv_path = (
-    Path(__file__).resolve().parent
-    / "data"
-    / "valid_counties.csv"
+from gee.helpers import (
+    get_crop_mask,
+    get_county,
+    get_harvested_area
 )
-
-valid_df = pd.read_csv(csv_path)
-
-VALID_COUNTIES = (
-    valid_df
-    .groupby("Crop")["County"]
-    .apply(list)
-    .to_dict()
-)
-
-# ==========================================================
-# VALIDATION
-# ==========================================================
-
-def validate_crop_county(crop_name, county_name):
-    """
-    Ensure the selected crop-county combination
-    exists in the training dataset.
-    """
-
-    # Check supported crop
-    if crop_name not in CROP_MASKS:
-        raise ValueError(
-            f"Crop '{crop_name}' is not supported."
-        )
-
-    # Check crop exists in training data
-    if crop_name not in VALID_COUNTIES.keys():
-        raise ValueError(
-            f"No counties found for crop '{crop_name}'."
-        )
-
-    # Check valid crop-county combination
-    if county_name not in VALID_COUNTIES[crop_name]:
-        raise ValueError(
-            f"{crop_name} was not included for "
-            f"{county_name} during model training."
-        )
-
-# ==========================================================
-# LOAD CROP MASK
-# ==========================================================
-
-def get_crop_mask(crop_name):
-    """
-    Load the SPAM harvested area raster
-    for the selected crop.
-    """
-
-    asset_id = CROP_MASKS[crop_name]
-
-    return ee.Image(asset_id)
-
-
-# ==========================================================
-# LOAD COUNTY
-# ==========================================================
-
-def get_county(county_name):
-    """
-    Retrieve the selected county boundary.
-    """
-
-    county = (
-        COUNTIES
-        .filter(
-            ee.Filter.eq(
-                "ADM1_EN",
-                county_name
-            )
-        )
-        .first()
-    )
-
-    if county.getInfo() is None:
-        raise ValueError(
-            f"County '{county_name}' not found."
-        )
-
-    return county
-
-
-# ==========================================================
-# HARVESTED AREA
-# ==========================================================
-
-def get_harvested_area(crop_mask, county, scale):
-    """
-    Calculate harvested area inside the selected county.
-    """
-
-    band_name = crop_mask.bandNames().get(0)
-
-    harvested_area = crop_mask.reduceRegion(
-        reducer=ee.Reducer.sum(),
-        geometry=county.geometry(),
-        scale=scale,
-        maxPixels=1e13,
-        bestEffort=True
-    )
-
-    return ee.Number(
-        harvested_area.get(band_name)
-    )
-
 
 # ==========================================================
 # RAINFALL (CHIRPS)
