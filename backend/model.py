@@ -80,25 +80,3 @@ def predict_crop_yield(
     return prediction
 
 
-# ==========================================================
-# TESTING
-# ==========================================================
-
-if __name__ == "__main__":
-
-    predicted_yield = predict_crop_yield(
-
-        crop_name="Irish Potatoes",
-
-        county_name="Nakuru",
-
-        start_date="2019-01-01",
-
-        end_date="2020-01-01"
-
-    )
-
-    print(
-        f"Predicted Yield: "
-        f"{predicted_yield:.3f} t/ha"
-    )
