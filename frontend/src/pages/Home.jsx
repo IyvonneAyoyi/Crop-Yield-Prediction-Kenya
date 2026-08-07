@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import PredictionForm from "../components/PredictionForm";
 import { predictYield } from "../services/api";
+import PredictionResult from "../components/PredictionResult";
 
 function Home() {
   const [prediction, setPrediction] = useState(null);
@@ -62,13 +63,13 @@ function Home() {
         {/* Temporary Prediction Output */}
         {prediction && (
           <div className="mt-8 bg-white rounded-xl shadow p-6">
-            <h2 className="text-2xl font-semibold mb-4">
-              Prediction Response
-            </h2>
+            
 
-            <pre className="overflow-x-auto text-sm">
-              {JSON.stringify(prediction, null, 2)}
-            </pre>
+            {prediction && (
+  <PredictionResult
+    prediction={prediction.predicted_yield}
+  />
+)}
           </div>
         )}
       </div>
