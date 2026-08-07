@@ -3,6 +3,7 @@ import { useState } from "react";
 import PredictionForm from "../components/PredictionForm";
 import { predictYield } from "../services/api";
 import PredictionResult from "../components/PredictionResult";
+import EnvironmentalVariables from "../components/EnvironmentalVariables";
 
 function Home() {
   const [prediction, setPrediction] = useState(null);
@@ -60,18 +61,18 @@ function Home() {
           </div>
         )}
 
-        {/* Temporary Prediction Output */}
-        {prediction && (
-          <div className="mt-8 bg-white rounded-xl shadow p-6">
-            
+    {/* Prediction Results */}
+    {prediction && (
+      <div className="mt-8 space-y-6">
+        <PredictionResult
+          prediction={prediction.predicted_yield}
+        />
 
-            {prediction && (
-  <PredictionResult
-    prediction={prediction.predicted_yield}
-  />
-)}
-          </div>
-        )}
+        <EnvironmentalVariables
+          variables={prediction.environmental_variables}
+        />
+      </div>
+    )}
       </div>
     </main>
   );
