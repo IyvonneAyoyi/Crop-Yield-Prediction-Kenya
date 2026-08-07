@@ -1,30 +1,16 @@
-function EnvironmentalVariables({ variables }) {
-  if (!variables) return null;
-
+function Header() {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6 mt-6">
-      <h2 className="text-2xl font-semibold text-green-700 mb-4">
-        Environmental Variables
-      </h2>
+    <div className="text-center mb-10">
+      <h1 className="text-4xl font-bold text-green-700">
+        Crop Yield Prediction System
+      </h1>
 
-      <div className="space-y-3">
-        {Object.entries(variables).map(([name, data]) => (
-          <div
-            key={name}
-            className="flex justify-between items-center border-b pb-2 last:border-b-0"
-          >
-            <span className="font-medium text-gray-700">
-              {name.replace(/_/g, " ")}
-            </span>
-
-            <span className="font-semibold text-gray-900">
-              {data.value} {data.unit}
-            </span>
-          </div>
-        ))}
-      </div>
+      <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+        Predict county-level crop yield using satellite-derived
+        environmental variables and Machine Learning.
+      </p>
     </div>
   );
 }
 
-export default EnvironmentalVariables;
+export default Header;
