@@ -1,15 +1,15 @@
 import pandas as pd
 
-from gee.rainfall import get_rainfall
-from gee.ndvi import get_ndvi
-from gee.lst import get_lst
-from gee.soil_moisture import get_soil_moisture
-from gee.evapotranspiration import get_evapotranspiration
-from gee.elevation import get_elevation
-from gee.slope import get_slope
+from backend.gee.rainfall import get_rainfall
+from backend.gee.ndvi import get_ndvi
+from backend.gee.lst import get_lst
+from backend.gee.soil_moisture import get_soil_moisture
+from backend.gee.evapotranspiration import get_evapotranspiration
+from backend.gee.elevation import get_elevation
+from backend.gee.slope import get_slope
 
 
-from gee.constants import FEATURE_UNITS
+from backend.gee.constants import FEATURE_UNITS
 
 def get_features(
     crop_name,
