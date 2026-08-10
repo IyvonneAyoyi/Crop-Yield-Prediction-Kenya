@@ -9,7 +9,8 @@ from preprocessing import preprocess
 # ==========================================================
 
 MODELS_DIR = (
-    Path(__file__).resolve().parent.parent
+    Path(__file__).resolve().parent
+    /"app"
     / "models"
 )
 

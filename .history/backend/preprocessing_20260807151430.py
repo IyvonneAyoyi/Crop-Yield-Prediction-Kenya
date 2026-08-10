@@ -185,8 +185,8 @@ if __name__ == "__main__":
 
     print(processed)
 
-    print("\nShape: - preprocessing.py:188", processed.shape)
+    print("\nShape:", processed.shape)
 
-    print("\nColumns: - preprocessing.py:190")
+    print("\nColumns:")
 
     print(processed.columns.tolist())
