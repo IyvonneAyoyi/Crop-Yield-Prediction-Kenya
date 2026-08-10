@@ -4,10 +4,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from predict import get_features
-from model import predict_crop_yield
+from backend.predict import get_features
+from backend.model import predict_crop_yield
 
-from gee.constants import (
+from backend.gee.constants import (
     FEATURE_UNITS,
     SUPPORTED_CROPS,
     SUPPORTED_COUNTIES
