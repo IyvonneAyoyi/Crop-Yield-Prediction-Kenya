@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 from pathlib import Path
 
-from gee.constants import COUNTY_NAME_MAPPING
+from .gee.constants import COUNTY_NAME_MAPPING
 
 # ==========================================================
 # MODELS DIRECTORY
