@@ -10,7 +10,6 @@ from .gee.constants import COUNTY_NAME_MAPPING
 
 MODELS_DIR = (
     Path(__file__).resolve().parent
-    /"app"
     / "models"
 )
 
