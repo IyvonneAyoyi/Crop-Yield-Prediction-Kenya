@@ -30,7 +30,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",  # React (Vite)
+     "https://crop-yield-prediction-kenya.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
