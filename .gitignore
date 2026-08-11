@@ -23,3 +23,8 @@ Thumbs.db
 
 # Environment variables
 .env
+.env.*
+
+# Credentials
+credentials/
+*.service-account.json
