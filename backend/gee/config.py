@@ -1,5 +1,6 @@
 import ee
 import os
+import json
 
 # ==========================================================
 # GOOGLE EARTH ENGINE AUTHENTICATION
@@ -16,9 +17,19 @@ private_key = os.environ.get(
 if service_account and private_key:
 
     # Render / production
+
+    private_key = private_key.replace("\\n", "\n")
+
+    service_account_info = {
+        "type": "service_account",
+        "client_email": service_account,
+        "private_key": private_key,
+        "token_uri": "https://oauth2.googleapis.com/token"
+    }
+
     credentials = ee.ServiceAccountCredentials(
         service_account,
-        key_data=private_key
+        key_data=json.dumps(service_account_info)
     )
 
     ee.Initialize(
@@ -29,6 +40,7 @@ if service_account and private_key:
 else:
 
     # Local development
+
     ee.Initialize(
         project="geospatial-rs"
     )
