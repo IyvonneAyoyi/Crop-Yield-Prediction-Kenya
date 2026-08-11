@@ -1,7 +1,7 @@
 import joblib
 from pathlib import Path
 
-from preprocessing import preprocess
+from .preprocessing import preprocess
 
 
 # ==========================================================
