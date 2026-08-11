@@ -1,16 +1,21 @@
 import ee
 import os
-import json
-
 
 # ==========================================================
 # GOOGLE EARTH ENGINE AUTHENTICATION
 # ==========================================================
 
-service_account = os.environ.get("EARTH_ENGINE_SERVICE_ACCOUNT")
-private_key = os.environ.get("EARTH_ENGINE_PRIVATE_KEY")
+service_account = os.environ.get(
+    "EARTH_ENGINE_SERVICE_ACCOUNT"
+)
+
+private_key = os.environ.get(
+    "EARTH_ENGINE_PRIVATE_KEY"
+)
 
 if service_account and private_key:
+
+    # Render / production
     credentials = ee.ServiceAccountCredentials(
         service_account,
         key_data=private_key
@@ -20,9 +25,9 @@ if service_account and private_key:
         credentials=credentials,
         project="geospatial-rs"
     )
-    
 
 else:
+
     # Local development
     ee.Initialize(
         project="geospatial-rs"
