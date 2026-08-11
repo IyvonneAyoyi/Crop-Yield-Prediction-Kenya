@@ -27,15 +27,16 @@ app = FastAPI(
 # ENABLE CORS
 # ==========================================================
 
-app.add_middleware(
+app.add_middleware( 
     CORSMiddleware,
-    allow_origins=[
-     "https://crop-yield-prediction-kenya.vercel.app"
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+     allow_origins=[ 
+        "https://crop-yield-prediction-kenya.vercel.app" 
+        ],
+         allow_credentials=True,
+          allow_methods=["*"], 
+          allow_headers=["*"], 
+          
+        )
 
 # ==========================================================
 # DATE LIMITS
