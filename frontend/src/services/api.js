@@ -3,8 +3,7 @@ import axios from "axios";
 // FastAPI base URL
 const api = axios.create({
   baseURL:
-    import.meta.env.VITE_API_URL ||
-    "http://127.0.0.1:8000",
+    import.meta.env.VITE_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
