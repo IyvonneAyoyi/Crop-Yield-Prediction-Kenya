@@ -30,7 +30,7 @@ app = FastAPI(
 app.add_middleware( 
     CORSMiddleware,
      allow_origins=[ 
-        "https://crop-yield-prediction-kenya.vercel.app" 
+        "https://crop-yield-predictions-ten.vercel.app" 
         ],
          allow_credentials=True,
           allow_methods=["*"], 
