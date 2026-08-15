@@ -10,6 +10,7 @@ const Dashboard = () => {
   const [counties, setCounties] = useState([]);
   const [selectedCrop, setSelectedCrop] = useState("Maize");
   const [selectedCounty, setSelectedCounty] = useState("Uasin Gishu");
+  const [selectedYear, setSelectedYear] = useState("2022");
   const [predictionData, setPredictionData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -41,8 +42,8 @@ const Dashboard = () => {
       const data = await predictYield({
         crop: selectedCrop,
         county: selectedCounty,
-        start_date: "2022-01-01",
-        end_date: "2022-12-31",
+        start_date: `${selectedYear}-01-01`,
+        end_date: `${selectedYear}-12-31`,
       });
 
       setPredictionData(data);
@@ -68,14 +69,6 @@ const Dashboard = () => {
           {selectedCounty} County Insights
         </h2>
       </div>
-
-      <button
-        onClick={handlePredict}
-        disabled={loading}
-        className="mb-8"
-      >
-        {loading ? "Predicting..." : "Run Prediction"}
-      </button>
 
       {error && (
         <div className="bg-error-container text-on-error-container p-4 rounded-md mb-8">
@@ -137,12 +130,40 @@ const Dashboard = () => {
             ))}
           </select>
         </div>
+
+        <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+          <p className="text-xs text-gray-500 font-inter font-semibold uppercase mb-2">
+            Year
+          </p>
+
+          <select
+            className="w-full text-xl font-bold text-on-background bg-transparent outline-none cursor-pointer"
+            value={selectedYear}
+            onChange={(e) => setSelectedYear(e.target.value)}
+          >
+            {[2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027].map((year) => (
+              <option key={year} value={year}>
+                {year}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <div className="flex justify-end mb-8">
+        <button
+          onClick={handlePredict}
+          disabled={loading}
+          className="bg-primary hover:opacity-90 text-white font-bold py-3 px-8 rounded-full shadow-md transition duration-200 ease-in-out disabled:opacity-50"
+        >
+          {loading ? "Predicting..." : "Run Prediction"}
+        </button>
       </div>
 
       {predictionData && (
         <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm mb-8">
           <h3 className="text-lg font-semibold mb-4 border-b pb-2">
-            Environmental Data (2022)
+            Environmental Data ({selectedYear})
           </h3>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
